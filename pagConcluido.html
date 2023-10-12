@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="./assets2/css/reset.css">
+    <link rel="stylesheet" href="./assets2/css/base.css">
+    <link rel="stylesheet" href="./assets2/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets2/css/chamada.css">
+    <link rel="stylesheet" href="./assets2/css/destaques.css">
+    <link rel="stylesheet" href="./assets2/css/diferenciais.css">
+    <link rel="stylesheet" href="./assets2/css/sobre.css">
+    <link rel="stylesheet" href="./assets2/css/planos.css">
+    <link rel="stylesheet" href="./assets2/css/contato.css">
+    <link rel="stylesheet" href="./assets2/css/institucional.css">
+    <link rel="stylesheet" href="./assets2/css/rodape.css">
+    <link rel="stylesheet" href="./assets2/css/rodape.css">
+
+    <title>Início</title>
+    <link rel="icon" href="assets/img/MTS.png">
+
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>MTS</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="Planos.html" class="nav-link">Planos</a></li>
+                    <li class="nav-item"><a href="Sobre.html" class="nav-link">Sobre</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="https://umjovemprogramador.github.io/MTS-CADASTRO/">Entrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg"></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="Planos.html" class="nav-link">Planos</a></li>
+                <li class="nav-item"><a href="Sobre.html" class="nav-link">Sobre</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="https://umjovemprogramador.github.io/MTS-CADASTRO/">Entrar</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+         <section class="chamada container">
+            <h1 class="chamada__titulo">Pagamento Concluido</h1>
+            <p class="chamada__texto">Master Tech Service </p>
+            <a href="Planos.html" class="chamada__botao botao">Conheça os planos</a>
+        </section>
+
+        <section class="destaques container">
+            <h2 class="destaques__titulo">Serviço contratado</h2>
+            
+            <a href="#">
+                <figure class="destaques__painel">
+                    <img src="assets/img/sucess-discord.gif" alt="Painel do post sobre fotografia com celular" class="destaques__painel-imagem">
+                    <figcaption class="destaques__painel-texto">Transação realizada com sucesso.</figcaption>
+                </figure>
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>MTS</h1>
+                <br>
+                <p>Ao alcance de suas mãos.</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <ul class="footer-list">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Tech</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Adventures</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Music</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Products</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">App</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Desktop</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Cloud</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Subscribe</h3>
+
+                <p>
+                    Digite seu e-mail para ser notificado sobre
+                    Nossas Soluções de Notícias
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <a href="mailto:antoniolucas9014@gmail.com" target="_blank" class="fa-regular fa-envelope"></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2023 all rights reserved
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>

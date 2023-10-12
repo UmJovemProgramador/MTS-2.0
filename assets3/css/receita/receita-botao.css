@@ -1,0 +1,70 @@
+.receita__botao {
+    background: #e98f10;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.receita__botao:hover {
+    background: #a56813;
+    cursor: pointer;
+}
+
+.receitas {
+    background: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 0px) {
+    .receitas {
+        padding: 5rem 0 0 1rem;
+    }
+    
+    .receita__botao,
+    .pessoa__imagem {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 300px) {
+    .receita__botao,
+    .pessoa__imagem {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receitas {
+        padding: 5rem 0 0 2.5rem;
+    }
+    
+    .receita__botao {
+        margin-left: 1rem;
+        margin-right: 0;
+    }
+    
+    .pessoa__imagem {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .receitas {
+        padding: 5rem 0 0 5rem;
+    }
+    
+    .receita__botao {
+        margin-right: 0;
+    }
+    
+    .pessoa__imagem {
+        margin-left: 0;
+    }
+}
