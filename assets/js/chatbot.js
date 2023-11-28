@@ -105,7 +105,7 @@ function encerrarCompra() {
     for (let i = 0; i < planosSelecionados.length; i++) {
       message += `${i + 1} - ${planosSelecionados[i]}\n`;
     }
-    message += `Total da compra: R$ ${totalCompra} volte sempre!`;
+    message += `Total da compra: R$ ${totalCompra} Digite 0 para sair.`;
     displayBotMessage(message);
   }
   atendimentoIniciado = false;
