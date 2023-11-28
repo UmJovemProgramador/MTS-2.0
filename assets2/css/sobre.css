@@ -16,8 +16,8 @@
 
 .sobre__texto {
     line-height: normal;
-
     margin-bottom: 1rem;
+    text-align: justify;
 }
 
 .sobre__texto--destaque {
